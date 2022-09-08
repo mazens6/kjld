@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.search{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+header ul{
+    display: flex;
+    padding: 35px;
+}
+
+li a{
+    padding: 10px;
+    text-decoration: none;
+    color: brown;
+}
+
+header img{
+    padding: 10px;
+    width: 80px;
+    margin-left: 15px;
+}
+
+.search-hover{
+    color: azure;
+}
+
+.continer{
+    background-image: url(images/img4.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.continer h1{
+    color: rgb(196, 196, 196);
+    margin-left: 60px;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+
+.continer h3{
+    color: rgb(184, 184, 184);
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+input[type="submit"]{
+ width: 120px;
+ height: 50px;
+ background-color: rgb(31, 30, 30);
+ color: white;
+ margin-left: 60px;
+ margin-top: 10px;
+ border-radius: 15px;
+ 
+}
+
+header ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+
+input[type="submit"]:hover{
+    background-color: brown;
+    transition: 0.4s;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.img img{
+    width: 250px;
+}
+
+section{
+    background-color: rgb(39, 39, 39);
+    overflow: hidden;
+}
+
+.con1{
+    display: flex;
+    padding: 160px ;
+}
+
+.card img{
+    padding-right: 150px;
+}
+
+.card2 img{
+    padding-right: 150px;
+}
+
+.text1{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+h4{
+    margin-left: 100px;
+    padding: 5px;
+    color: green;
+}
+
+.text2{
+    margin-left: 65px;
+}
+
+.text3{
+    margin-left: 30px;
+}
+
+
+
+.log2 h1{
+    text-align: end;
+    color: wheat;
+}
+
+h5{
+    color: wheat;
+    width: 40%;
+    text-align: right;
+   margin-left: 700px;
+   margin-top: 300px;
+
+}
+
+.card3 img{
+    padding-right: 140px;
+}
+
+.con2{
+    display: flex;
+    padding-left: 150px;
+    padding-bottom: 120px;
+}
+
+.text4{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.text5{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.text6{
+    margin-left: 40px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.log2 img{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: -350px;
+}
+
+.textp{
+    text-align: end;
+}
+
+.textp h2{
+  width: 40%;
+  margin-left: 700px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+}
+
+
+.textp h1{
+    margin-top: 280px;
+    margin-right: 110px;
+    font-size: 2.5em;
+}
+
+.log2{
+    margin-bottom: 150px;
+}
+
+.btn5{
+    margin-right: 100px;
+}
